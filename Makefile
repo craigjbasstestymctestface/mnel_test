@@ -27,3 +27,4 @@ fmt-commit-push: linter
 		git commit -m "Fixing formatting issues."
 		git push "https://${GITHUB_API_USER}:${GITHUB_API_TOKEN}@github.com/hmrc/mnel_test.git"
 	fi
+
